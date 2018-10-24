@@ -17,7 +17,16 @@ export default function(theme={}) {
       fontSize: appStyle.textMonthFontSize,
       fontFamily: appStyle.textMonthFontFamily,
       fontWeight: appStyle.textMonthFontWeight,
+      letterSpacing: 2,
       color: appStyle.monthTextColor,
+      margin: 10
+    },
+    yearText: {
+      fontSize: appStyle.textMonthFontSize,
+      fontFamily: appStyle.textMonthFontFamily,
+      fontWeight: appStyle.textMonthFontWeight,
+      letterSpacing: 2,
+      color: "#908E88",
       margin: 10
     },
     arrow: {
